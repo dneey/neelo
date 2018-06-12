@@ -1,0 +1,35 @@
+@media screen and (max-width: 720px) {
+    .container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-flow: column;
+    padding-left: 1px;
+    padding-right:1px; 
+    /* padding-bottom: 20px; */
+    
+    /* background-color: azure; */
+}
+.card {
+    
+    background-color: rgba(207, 199, 199, 0);
+    width: 90%;
+    height: 350px;
+    margin: 10px;
+    box-shadow: 4px 5px 10px 1px rgba(128, 128, 128, 0.226);
+    transition: 1s;
+    -webkit-transition: 0.1s;
+    
+}
+.card:hover {
+    
+    /* background-color: rgba(207, 199, 199, 0); */
+    width: 90%;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* height: 400px; */
+    /* flex-flow: row; */
+    /* box-shadow: rgba(88, 107, 126, 0.952); */
+    box-shadow: 3px 5px 10px 4px rgba(5, 69, 245, 0.226);
+    cursor: pointer;
+}
+}
