@@ -14,9 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 <body>
-    <div class="top">
-
-    </div>
+    
     <!-- <div class="header">
         <ul>
             <li><a href="">Home</a>  </li>
@@ -26,36 +24,48 @@
     </div> -->
     <div class="nav">
         <ul>
-            <li><i class="fa fa-user"></i><a href=""> &nbsp Profile</a>  </li>
-            <li><i class="fa fa-plus"></i><a href=""> &nbsp Add a card</a></li>
-            <li><i class="fa fa-list-ul"></i><a href="">&nbsp View all cards</a></li>
+            <li><i class="fa fa-user"></i><a href=""> &nbsp <strong>Name</strong> David Yartey</a>  </li>
+            <li><i class="fa fa-plus"></i><a href=""> &nbsp <strong>Email</strong> yarteyd@gmail.com</a></li>
+            <!-- <li><i class="fa fa-list-ul"></i><a href="">&nbsp </a></li> -->
         </ul>
     </div>
     <br>
-    <div class="container center">
-        <p class="center welcome  first">Welcome to neelo. <p class="center welcome second" style="display:none;">These are some projects I am proud to have worked on :)</p></p>
-       
-        <!-- <h1 class="title">Some of my works :)</h1> -->
-    </div>
+
+        <p class="welcome center first">Welcome to <strong>neelo</strong></p>
+        <p class="center welcome second" style="display:none;">Here you will find some <strong>projects</strong> I have worked on :)</p>
+
+<br>
+    
     
     <div class="container">
-        
-        <div class="card" style="display:none;">
-            
-                <img src="assets/images/gym.jpg" alt="Logo" />
+        <div class="card second" style="display:none;">
+            <h4 class="title second center" style="display:none; padding-right: 2%; color: white; font-weight: 200; font-size: 20px;">
+                <strong> P r o j e c t s ( 5 )</strong>
+            </h4>
+
+                <!-- <img src="assets/images/gym.jpg" alt="Logo" /> -->
         </div>
-        <div class="card" style="display:none;">
-            
-        </div>
-        <div class="card" style="display:none;">
-            <p></p>
-        </div>
-        <div class="card" style="display:none;">
-            <p></p>
-        </div>
-      
     </div>
-  
+    <div style="padding-bottom: 200px;">
+
+    </div>
+
+    <h3 class="center title">Skills</h3>
+    <ul>
+        <li>Web Development</li>
+        <ul>
+            <li>Laravel</li>
+            <li>Lumen</li>
+            <li>NodeJs</li>
+            <li>CSS</li>
+            <li>VueJs</li>
+        </ul>
+    </ul>
+      
+
+
+
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script>
         $('.first').addClass('animated fadeInUp');
@@ -64,9 +74,10 @@
             $('.second').show().addClass('animated fadeInUp');
         }, 1500);
 
-        setTimeout(function () {
-            $('.card').show().addClass('animated fadeInUp');
-        }, 3500
-        );</script>
+        // setTimeout(function () {
+        //     $('.card').show().addClass('animated fadeInUp');
+        // }, 3500
+        // );
+        </script>
 </body>
 </html>

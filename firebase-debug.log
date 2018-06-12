@@ -1,0 +1,186 @@
+[debug] [2018-06-12T19:13:33.686Z] ----------------------------------------------------------------------
+[debug] [2018-06-12T19:13:33.689Z] Command:       /usr/local/Cellar/node/9.11.1/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-06-12T19:13:33.689Z] CLI Version:   3.16.0
+[debug] [2018-06-12T19:13:33.689Z] Platform:      darwin
+[debug] [2018-06-12T19:13:33.689Z] Node Version:  v9.11.1
+[debug] [2018-06-12T19:13:33.690Z] Time:          Tue Jun 12 2018 19:13:33 GMT+0000 (GMT)
+[debug] [2018-06-12T19:13:33.690Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-12T19:13:33.800Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-12T19:13:33.800Z] > authorizing via signed-in user
+[debug] [2018-06-12T19:13:33.802Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-12T19:13:33.803Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/NDIXKIkoq3uLmeiXsD-Uh35GUqytj-QbknpoNErMPTTDcFDMkVVbo4wdWav13rTt',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Jun 12 2018 19:13:33 GMT+0000 (GMT)
+[debug] [2018-06-12T19:13:34.725Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T19:13:34.792Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/neelo-43a82  
+  
+ Tue Jun 12 2018 19:13:34 GMT+0000 (GMT)
+[debug] [2018-06-12T19:13:37.318Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T19:13:37.320Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/neelo-43a82/tokens  
+  
+ Tue Jun 12 2018 19:13:37 GMT+0000 (GMT)
+[debug] [2018-06-12T19:13:43.065Z] <<< HTTP RESPONSE 500
+[debug] [2018-06-12T19:13:43.066Z] <<< HTTP RESPONSE BODY
+[error] 
+[error] Error: HTTP Error: 500, An unknown error occurred. Please contact support.
+[debug] [2018-06-12T19:13:43.069Z] Error Context: {
+  "body": {
+    "error": {
+      "code": "UNKNOWN_ERROR",
+      "message": "An unknown error occurred. Please contact support."
+    }
+  },
+  "response": {
+    "statusCode": 500,
+    "body": {
+      "error": {
+        "code": "UNKNOWN_ERROR",
+        "message": "An unknown error occurred. Please contact support."
+      }
+    },
+    "headers": {
+      "server": "nginx",
+      "date": "Tue, 12 Jun 2018 19:13:42 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "97",
+      "connection": "close",
+      "x-content-type-options": "nosniff"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "admin.firebase.com",
+        "port": 443,
+        "hostname": "admin.firebase.com",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/v1/database/neelo-43a82/tokens",
+        "path": "/v1/database/neelo-43a82/tokens",
+        "href": "https://admin.firebase.com/v1/database/neelo-43a82/tokens"
+      },
+      "method": "GET"
+    }
+  }
+}
+[debug] [2018-06-12T19:13:57.485Z] ----------------------------------------------------------------------
+[debug] [2018-06-12T19:13:57.488Z] Command:       /usr/local/Cellar/node/9.11.1/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-06-12T19:13:57.488Z] CLI Version:   3.16.0
+[debug] [2018-06-12T19:13:57.488Z] Platform:      darwin
+[debug] [2018-06-12T19:13:57.488Z] Node Version:  v9.11.1
+[debug] [2018-06-12T19:13:57.489Z] Time:          Tue Jun 12 2018 19:13:57 GMT+0000 (GMT)
+[debug] [2018-06-12T19:13:57.489Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-12T19:13:57.505Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-12T19:13:57.505Z] > authorizing via signed-in user
+[debug] [2018-06-12T19:13:57.508Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/neelo-43a82  
+  
+ Tue Jun 12 2018 19:13:57 GMT+0000 (GMT)
+[debug] [2018-06-12T19:13:58.628Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T19:13:58.629Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/neelo-43a82/tokens  
+  
+ Tue Jun 12 2018 19:13:58 GMT+0000 (GMT)
+[debug] [2018-06-12T19:13:59.691Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'neelo-43a82'...
+[info] 
+[info] i  deploying functions, hosting
+[debug] [2018-06-12T19:14:01.177Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase experimental:functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "firebase-admin": "^5.5.0",
+    "firebase-functions": "^0.7.1"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2018-06-12T19:14:01.182Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/neelo-43a82?view=CONSUMER_VIEW  
+  
+ Tue Jun 12 2018 19:14:01 GMT+0000 (GMT)
+[debug] [2018-06-12T19:14:01.182Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/neelo-43a82?view=CONSUMER_VIEW  
+  
+ Tue Jun 12 2018 19:14:01 GMT+0000 (GMT)
+[debug] [2018-06-12T19:14:02.891Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T19:14:03.229Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] [2018-06-12T19:14:03.230Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/neelo-43a82  
+  
+ Tue Jun 12 2018 19:14:03 GMT+0000 (GMT)
+[debug] [2018-06-12T19:14:03.230Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/neelo-43a82/apiKeys  
+  
+ Tue Jun 12 2018 19:14:03 GMT+0000 (GMT)
+[debug] [2018-06-12T19:14:05.248Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T19:14:06.159Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing functions directory for uploading...
+[debug] [2018-06-12T19:14:23.387Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/neelo-43a82/configs  
+  
+ Tue Jun 12 2018 19:14:23 GMT+0000 (GMT)
+[debug] [2018-06-12T19:14:24.770Z] <<< HTTP RESPONSE 200
+[info] i  functions: packaged functions (916 B) for uploading
+[debug] [2018-06-12T19:14:28.934Z] >>> HTTP REQUEST GET https://www.googleapis.com/storage/v1/b/staging.neelo-43a82.appspot.com  
+  
+ Tue Jun 12 2018 19:14:28 GMT+0000 (GMT)
+[debug] [2018-06-12T19:14:30.487Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-12T19:14:30.488Z] >>> HTTP REQUEST POST https://www.googleapis.com/upload/storage/v1/b/staging.neelo-43a82.appspot.com/o?uploadType=media&name=firebase-functions-source  
+ ReadStream {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 65536,
+     buffer: BufferList { head: [Object], tail: [Object], length: 1 },
+     length: 916,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: true,
+     endEmitted: false,
+     reading: false,
+     sync: false,
+     needReadable: false,
+     emittedReadable: true,
+     readableListening: false,
+     resumeScheduled: false,
+     destroyed: false,
+     defaultEncoding: 'utf8',
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: { end: [Function] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  path: '/var/folders/v2/wcrn1kb14l53kpln0d_k858m00010j/T/firebase-functions-34710hlGe3KvKANN3.zip',
+  fd: 19,
+  flags: 'r',
+  mode: 438,
+  start: undefined,
+  end: Infinity,
+  autoClose: true,
+  pos: undefined,
+  bytesRead: 916,
+  closed: false } 
+ Tue Jun 12 2018 19:14:30 GMT+0000 (GMT)
+[debug] [2018-06-12T19:14:31.566Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: functions folder uploaded successfully
+[info] i  hosting: preparing public directory for upload...
+[debug] [2018-06-12T19:14:31.915Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/neelo-43a82/uploads/-LEpPqFvcrUsub0rJ2d1?fileCount=46&message=  
+  
+ Tue Jun 12 2018 19:14:31 GMT+0000 (GMT)
