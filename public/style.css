@@ -1,11 +1,29 @@
 .top {
     margin: 0;
+    margin-bottom: 5%;
+    padding-bottom: 0.5%;
     width: 100%;
     height: 2px;
-    background-color: #1E8FFF;
+    /* background-color: #1E8FFF; */
+    /* background-color:rgba(14, 17, 14, 0.281);; */
+    background-color:rgba(30, 143, 255, 0.76);;
+}
+.line-horizontal {
+    margin: 0;
+    margin-bottom: 5%;
+    padding-top: 0.1%;
+    width: 100%;
+    height: 1px;
+    /* background-color: #1E8FFF; */
+   background-color:rgba(30, 143, 255, 0.76);;
 }
 body {
     margin: 0px;
+}
+
+.front{
+    margin-top: 10%;
+    margin-bottom: 25%;
 }
 
 .header > ul{
@@ -58,7 +76,7 @@ body {
     text-decoration: none;
     /* align-content: center; */
 }
-.nav > ul > li > a{
+.cnav > ul > li > a{
    text-decoration: none;
    /* color: rgb(8, 101, 223); */
    color: rgb(93, 94, 95);
@@ -81,14 +99,14 @@ body {
 .card {
     
         /* background-color: rgb(199, 205, 207); */
-        background-color:rgba(30, 143, 255, 0.76);;
+        background-color:rgba(30, 143, 255, 0.76);
     /* background-color: rgb(2, 72, 90); */
     width: 100%;
     height: 600px;
     /* flex-flow: row; */
     /* box-shadow: rgba(88, 107, 126, 0.952); */
     box-shadow: 3px 5px 10px 4px rgba(171, 175, 185, 0.651);
-    cursor: pointer;
+    /* cursor: pointer; */
     padding-left: 5px;
     padding-right: 5px;
     /* box-shadow: 4px 5px 5px 1px rgba(128, 128, 128, 0.226); */
@@ -148,6 +166,20 @@ img {
 .center {
 justify-content: center;
 text-align: center;
+}
+.centerButton {
+    margin-top: 20px;
+    /* margin-left: 40%; */
+    /* margin-right: 40%; */
+/* float: right; */
+text-align: center;
+padding-bottom: 7px;
+padding-top: 7px;
+background-color:  rgb(0, 204, 255);
+border: none;
+
+    display: inline-block;
+    vertical-align: top;
 }
 
 .welcome {

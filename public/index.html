@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Neelo</title>
+    <title>Neelo --WebDevs</title>
     
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
     <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaQueries.css">
+    <!-- <link rel="stylesheet" href="mediaQueries.css"> -->
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 <body>
+    <div class="top">
+
+    </div>
     
     <!-- <div class="header">
         <ul>
@@ -22,23 +28,43 @@
             <li><a href="">Help</a></li>
         </ul>
     </div> -->
-    <div class="nav">
-        <ul>
+    <!-- <div class="cnav"> -->
+        <!-- <ul>
             <li><i class="fa fa-user"></i><a href=""> &nbsp <strong>Name</strong> David Yartey</a>  </li>
             <li><i class="fa fa-plus"></i><a href=""> &nbsp <strong>Email</strong> yarteyd@gmail.com</a></li>
             <!-- <li><i class="fa fa-list-ul"></i><a href="">&nbsp </a></li> -->
-        </ul>
+        <!-- </ul> -->
     </div>
     <br>
 
-        <p class="welcome center first">Welcome to <strong>neelo</strong></p>
-        <p class="center welcome second" style="display:none;">Here you will find some <strong>projects</strong> I have worked on :)</p>
+<div class="front">
+    <p class="welcome center first"  style="margin-top:5%;">
+        <strong>Welcome to Neelo</strong>
+    </p>
+    <!-- <p class="center welcome second" style="display:none;">Here you will find some projects I have worked on 🎉 </p> -->
+        <div class="row" style="margin-top:25%;">
+            <div class="col-md-3 offset-md-3 col-xs-4" >
+                <button class="second btn btn-info btn-block" style="display: none;margin-top:2%; padding:10px;">View Projects</button>
+            </div>
+            <div class="col-md-3 offset-md-0 col-sm-12 col-xs-4">
+                <button class="second btn btn-dark   btn-block" style="display: none; margin-top:2%; padding:10px;">Learn More</button>
+            </div>
+            </div>
+            <!-- <div class="row">
+            
+            </div> -->
+            </div>
+        </div>
+   
+</div>
 
+</div>
+        
 <br>
     
     
     <div class="container">
-        <div class="card second" style="display:none;">
+        <div class="card" style="display:none;">
             <h4 class="title second center" style="display:none; padding-right: 2%; color: white; font-weight: 200; font-size: 20px;">
                 <strong> P r o j e c t s ( 5 )</strong>
             </h4>
@@ -49,10 +75,12 @@
     <div style="padding-bottom: 200px;">
 
     </div>
+<!-- <div class="line-horizontal">
 
-    <h3 class="center title">Skills</h3>
+</div> -->
+    <!-- <h3 class="center title">Dummy</h3>
     <ul>
-        <li>Web Development</li>
+        <li>Dummy</li>
         <ul>
             <li>Laravel</li>
             <li>Lumen</li>
@@ -60,7 +88,7 @@
             <li>CSS</li>
             <li>VueJs</li>
         </ul>
-    </ul>
+    </ul> -->
       
 
 
@@ -73,6 +101,7 @@
         setTimeout(function () {
             $('.second').show().addClass('animated fadeInUp');
         }, 1500);
+        
 
         // setTimeout(function () {
         //     $('.card').show().addClass('animated fadeInUp');
